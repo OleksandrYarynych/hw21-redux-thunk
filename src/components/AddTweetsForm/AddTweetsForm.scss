@@ -1,0 +1,13 @@
+select {
+  width: 100%;
+  height: 30px;
+  background-color: black;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid #535353;
+  color: #ffffff;
+
+  &:focus {
+    border-bottom: 2px solid blue;
+  }
+}
