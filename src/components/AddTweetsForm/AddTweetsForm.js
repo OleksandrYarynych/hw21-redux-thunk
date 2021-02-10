@@ -14,6 +14,7 @@ const AddTweetsForm = () => {
   const handleAPICall = async () => {
     const userRes = await fetch("http://domer.tech:9999/users/");
     const userData = await userRes.json();
+    console.log(users)
     dispatch(getAllUsers(userData.data));
   };
 
